@@ -6,7 +6,7 @@ int main(){
 	int hcf,lcm;
 	int i;
 	for(i=1;i<=a||i<=b;i++){
-		if(a%i==0&&b%i==0){
+		if((a%i==0) && (b%i==0)){
 			hcf=i;
 		}
 	}

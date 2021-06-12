@@ -11,6 +11,6 @@ int main(){
 		}
 	}
 	lcm=(a*b)/hcf;//because we know that lcm*hcf=product of two numbers
-	printf("HCF and LCM of two numbers %d and %d HCF=%d,LCM=%d",a,b,hcf,lcm);
+	printf("HCF and LCM of two numbers %d and %d are : HCF=%d,LCM=%d",a,b,hcf,lcm);
 	return 0;
 }
